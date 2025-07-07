@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/estilos.css">
+	<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet"> 
+	<link rel="shorcut icon" type=image/x-icon" href="img/icono I.png">
+	<title>MoviMent</title>
+</head>
+<body>
+	<header>
+		<div class="contenedor">
+			<h2 class="logotipo">MoviMent</h2>
+			<nav>
+				<a href="#" class="activo">Inicio</a>
+				<a href="#">Programas</a>
+				<a href="peliculas.html">Películas</a>
+				<a href="#">Más Recientes</a>
+				<a href="#">Mi lista</a>
+			</nav>
+		</div>
+	</header>
+
+	<main>
+		<div class="pelicula-principal">
+			<div class="contenedor">
+				<h3 class="titulo">Joker (2019)</h3>
+				<p class="descripcion">
+					Arthur Fleck es un hombre ignorado por la sociedad, cuya motivación en la vida es hacer reír. Pero una serie de trágicos acontecimientos le llevarán a ver el mundo de otra forma. Película basada en Joker, el popular personaje de DC Comics y archivillano de Batman, pero que en este film toma un cariz más realista y oscuro.
+				</p>
+				
+				<a href="Peliculas/joker.mp4"><button role="button" class="boton"><i class="fas fa-play"></i>Reproducir</button></a>
+				<button role="button" class="boton"><i class="fas fa-info-circle"></i>Más información</button>
+				
+			</div>
+		</div>
+		<div class="peliculas-recomendadas contenedor">
+			<div class="contenedor-titulo-controles">
+				<h3>Películas Recomendadas</h3>
+				<div class="indicadores"></div>
+
+			</div>
+			<div class="contenedor-principal">
+				<button role="button" id="flecha-izquierda" class="flecha-izquierda"><i class="fas fa-angle-left"></i>
+				</button>
+
+				<div class="contenedor-carousel">
+					<div class="carousel">
+						<div class="pelicula">
+							<a href="Peliculas/[Barrenderos espaciales].mp4" target="_blank"><img src="img/barrenderos espaciales.jpg" alt="Barrenderos Espaciales"></a>
+						</div>
+						<div class="pelicula">
+							<a href="Peliculas/[Bill & Ted Face the Music].mp4" target="_blank"><img src="img/bill & ted Face the Music.jpg"></a>
+						</div>
+						<div class="pelicula">
+							<a href="Peliculas/[Gozilla el rey de loz moustros].mp4" target="_blank"><img src="img/godzilla rey de los moustros.jpg"></a>
+						</div>
+						<div class="pelicula">
+							<a href="Peliculas/[Godzilla vs Kong][HD].mp4" target="_blank"><img src="img/godzilla vs kong.jpg"></a>
+						</div>
+						<div class="pelicula">
+							<a href="Peliculas/[The Lodge - La Cabaña Siniestra][L][HD].mp4" target="_blank"><img src="img/la cabaña siniestra.jpg"></a>
+						</div>
+						<div class="pelicula">
+							<a href="Peliculas/[Love and Monsters][L].mp4" target="_blank"><img src="img/Love and Monsters.jpg"></a>
+						</div>
+						<div class="pelicula">
+							<a href="Peliculas/Linterna Verde Caballeros Esmeralda .mp4" target="_blank"><img src="img/Linterna Verde Caballeros Esmeralda4.jpg"></a>
+						</div>
+						<div class="pelicula">
+							<a href="Peliculas/jovenes titanes vs liga de la justicia.mp4" target="_blank"><img src="img/jovenes titanes vs liga de la justicia (2).jpg"></a>
+						</div>
+						<div class="pelicula">
+							<a href="Peliculas/Justice-League-War.mp4" target="_blank"><img src="img/Liga dela justicia war.png"></a>
+						</div>
+						<div class="pelicula">
+							<a href="Peliculas/Spider-Man Into the Spider-Verse WDL 720p LAT.mp4" target="_blank"><img src="img/spiderman multivers2.jpg"></a>
+						</div>
+						<div class="pelicula">
+							<a href="Peliculas/Liga de la Justicia Oscura Guerra Apokolips.mp4" target="_blank"><img src="img/liga de la justicia Guerra.jpg"></a>
+						</div>
+
+
+					</div>
+				</div>
+				<button role="button" id="flecha-derecha" class="flecha-derecha"><i class="fas fa-angle-right"></i>
+				</button>
+			</div>
+
+		</div>
+	</main>
+	
+	<script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>
